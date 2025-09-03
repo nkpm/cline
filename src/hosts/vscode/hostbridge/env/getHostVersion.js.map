@@ -1,0 +1,1 @@
+{"version":3,"file":"getHostVersion.js","sourceRoot":"","sources":["getHostVersion.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,MAAM,MAAM,QAAQ,CAAA;AAGhC,MAAM,CAAC,KAAK,UAAU,cAAc,CAAC,CAAe;IACnD,OAAO,EAAE,QAAQ,EAAE,QAAQ,EAAE,OAAO,EAAE,MAAM,CAAC,OAAO,EAAE,CAAA;AACvD,CAAC"}

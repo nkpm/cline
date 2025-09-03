@@ -1,0 +1,1 @@
+../dist-standalone/proto/descriptor_set.pb

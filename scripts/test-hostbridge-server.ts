@@ -59,7 +59,7 @@ function createMockService<T extends grpc.UntypedServiceImplementation>(serviceN
 				switch (prop) {
 					case "getWorkspacePaths":
 						callback(null, {
-							paths: ["/test-workspace"],
+							paths: ["/Users/nils/Documents/nkco/development/cline/cline-workspace"],
 						})
 						return
 

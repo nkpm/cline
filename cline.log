@@ -1,0 +1,1093 @@
+Cline environment: production
+Loading stubs...
+Finished loading stubs
+Loading stub impls...
+Finished loading stub impls...
+Called stub: vscode.env.onDidChangeTelemetryEnabled with args: [ [Function (anonymous)] ]
+[TelemetryService] Initialized with PostHogClientProvider
+XS variant configuration warnings: [
+  'Component overrides for unused components: TOOL_USE_SECTION, TOOLS_SECTION, MCP_SECTION, TODO_SECTION, FEEDBACK_SECTION',
+  'Missing recommended components: TOOL_USE_SECTION'
+]
+[2025-09-01T18:22:51.239] #bot.cline.server.ts Running standalone cline  0.0.1
+[2025-09-01T18:22:51.240] #bot.cline.server.ts Using settings dir: /Users/nils/.cline/data
+Finished loading vscode context...
+[2025-09-01T18:22:51.242] #bot.cline.server.ts 
+
+
+Starting cline-core service...
+
+
+
+[2025-09-01T18:22:51.267] #bot.cline.server.ts HostBridge is serving; continuing startup
+FileContextTracker: Processed 21 tasks, found 0 pending warnings, 0 orphaned, deleted 0, took 0ms
+[2025-09-01T18:22:51.272] #bot.cline.server.ts ClineProvider instantiated
+Extension context was not provided to AuthService.getInstance, using default context
+[2025-09-01T18:22:51.273] #bot.cline.server.ts Checking for legacy checkpoints...
+No stored authentication credential found.
+No user found after restoring auth token
+[2025-09-01T18:22:51.407] #bot.cline.server.ts ProtoBus gRPC server listening on 127.0.0.1:26040
+(node:64770) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-09-01T18:22:51.407] #bot.cline.server.ts Process Warning: DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+[2025-09-01T18:22:54.969] #bot.cline.server.ts ProtoBus request: /cline.McpService/toggleToolAutoApprove
+{
+  "mcpServers": {
+    
+  }
+}
+/Users/nils/.cline/data/settings/cline_mcp_settings.json
+Failed to update autoApprove settings: TypeError: Cannot read properties of undefined (reading 'autoApprove')
+    at McpHub.toggleToolAutoApproveRPC (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:878564:54)
+    at async toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:677050:24)
+    at async Object.toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:968577:23)
+Failed to toggle tool auto-approve for default: TypeError: Cannot read properties of undefined (reading 'autoApprove')
+    at McpHub.toggleToolAutoApproveRPC (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:878564:54)
+    at async toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:677050:24)
+    at async Object.toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:968577:23)
+[2025-09-01T18:22:54.970] #bot.cline.server.ts ProtoBus handler error: /cline.McpService/toggleToolAutoApprove
+TypeError: Cannot read properties of undefined (reading 'autoApprove')
+    at McpHub.toggleToolAutoApproveRPC (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:878564:54)
+    at async toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:677050:24)
+    at async Object.toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:968577:23)
+[2025-09-01T22:01:04.334] #bot.cline.server.ts ProtoBus request: /cline.McpService/toggleToolAutoApprove
+{
+  "mcpServers": {
+    
+  }
+}
+/Users/nils/.cline/data/settings/cline_mcp_settings.json
+Failed to update autoApprove settings: TypeError: Cannot read properties of undefined (reading 'autoApprove')
+    at McpHub.toggleToolAutoApproveRPC (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:878564:54)
+    at async toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:677050:24)
+    at async Object.toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:968577:23)
+Failed to toggle tool auto-approve for default: TypeError: Cannot read properties of undefined (reading 'autoApprove')
+    at McpHub.toggleToolAutoApproveRPC (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:878564:54)
+    at async toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:677050:24)
+    at async Object.toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:968577:23)
+[2025-09-01T22:01:04.335] #bot.cline.server.ts ProtoBus handler error: /cline.McpService/toggleToolAutoApprove
+TypeError: Cannot read properties of undefined (reading 'autoApprove')
+    at McpHub.toggleToolAutoApproveRPC (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:878564:54)
+    at async toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:677050:24)
+    at async Object.toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:968577:23)
+[2025-09-01T22:53:24.981] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-01T22:53:44.402] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756760024411
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756760024411
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 118ms
+Creating checkpoint commit with message: checkpoint-87472443-1756760024411
+Checkpoint commit created:  9b619cfd0548267510678e0ac5af4696261e7497
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Registry health check: 4 variants, 13 components loaded
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-01T22:55:54.766] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been reverted to its original content.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756760154769
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756760154769
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 113ms
+Creating checkpoint commit with message: checkpoint-87472443-1756760154769
+Checkpoint commit created:  380638d26cbe6127cdf79c34a5d73a2d685c7caf
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T09:06:40.379] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756796800389
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756796800389
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 122ms
+Creating checkpoint commit with message: checkpoint-87472443-1756796800389
+Checkpoint commit created:  366cdc3c528a4f80ebf19f1f494d148265dd7565
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T09:19:15.413] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T09:19:20.895] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756797560905
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756797560905
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 131ms
+Creating checkpoint commit with message: checkpoint-87472443-1756797560905
+Checkpoint commit created:  a3dae2673520365384b5fcc8231ee368772aa4e4
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T09:28:49.205] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T09:29:45.828] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756798185833
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756798185833
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 121ms
+Creating checkpoint commit with message: checkpoint-87472443-1756798185833
+Checkpoint commit created:  3a426b8c315266709aaac22180db534a820e5da4
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T09:34:04.578] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T09:34:10.535] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756798450545
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756798450545
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 124ms
+Creating checkpoint commit with message: checkpoint-87472443-1756798450545
+Checkpoint commit created:  5f9ff910243c9cae09ab4ecf30d4f72d727a138e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T09:36:22.112] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T09:36:38.588] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756798598593
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756798598593
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 127ms
+Creating checkpoint commit with message: checkpoint-87472443-1756798598593
+Checkpoint commit created:  219348f47d5bb70243991697fba59da7ab080146
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T09:40:09.164] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T09:40:14.190] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756798814196
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756798814196
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 125ms
+Creating checkpoint commit with message: checkpoint-87472443-1756798814196
+Checkpoint commit created:  a23eaf786d19e5b60799d6586e35345727b1c9ff
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T09:45:20.085] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T09:45:24.730] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756799124735
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756799124735
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 125ms
+Creating checkpoint commit with message: checkpoint-87472443-1756799124735
+Checkpoint commit created:  33fe2a03e292a76910fe2a3d23b275e2371a326a
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T10:04:01.042] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T10:04:06.019] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756800246040
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756800246040
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 123ms
+Creating checkpoint commit with message: checkpoint-87472443-1756800246040
+Checkpoint commit created:  0af2bc683d44a9562ab774a639a215abf61a99b2
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T10:37:58.011] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T10:38:01.371] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756802281392
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756802281392
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 136ms
+Creating checkpoint commit with message: checkpoint-87472443-1756802281392
+Checkpoint commit created:  0f11e61697bbf6bb4682a8f1289799a45a5f3075
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T10:42:21.429] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T10:42:23.756] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756802543770
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756802543770
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 149ms
+Creating checkpoint commit with message: checkpoint-87472443-1756802543770
+Checkpoint commit created:  79fade56270f80dda5fba5aff166e7bfac215d0b
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T10:42:41.149] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756802561157
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756802561157
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 155ms
+Creating checkpoint commit with message: checkpoint-87472443-1756802561157
+Checkpoint commit created:  30c1d32026e4ab752e55c6e9c8459c8771f4704e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T10:50:06.573] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T10:50:09.604] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756803009610
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756803009610
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 134ms
+Creating checkpoint commit with message: checkpoint-87472443-1756803009610
+Checkpoint commit created:  da82c79e4b1c2acf0b686eef60a6f43933037d17
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T10:55:36.060] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T10:56:02.959] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756803362967
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756803362967
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 130ms
+Creating checkpoint commit with message: checkpoint-87472443-1756803362967
+Checkpoint commit created:  9ad04cbaf99fc27c546cfbbba1421da6212ff8f5
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T11:02:48.889] #bot.cline.server.ts ProtoBus gRPC streaming request: /cline.UiService/subscribeToPartialMessage
+[2025-09-02T11:02:50.565] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756803770577
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756803770577
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 131ms
+Creating checkpoint commit with message: checkpoint-87472443-1756803770577
+Checkpoint commit created:  a48c165c0f96049c9a5201ee4e0668d747ff2bfe
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T11:09:43.074] #bot.cline.server.ts ProtoBus request: /cline.ModelsService/updateApiConfigurationProto
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T11:09:52.298] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756804192303
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756804192303
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 131ms
+Creating checkpoint commit with message: checkpoint-87472443-1756804192303
+Checkpoint commit created:  7d28a1538aa348bb9175458fd639cba8ad2111b0
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[ErrorService] Logging _ClineError: xAI API key is required
+    at _ClineError.transform (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:538776:18)
+    at ErrorService.toClineError (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:538855:40)
+    at Task.attemptApiRequest (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:939378:43)
+    at async Task.recursivelyMakeClineRequests (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:939804:30)
+    at async Task.initiateTaskLoop (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:938982:30)
+    at async Task.startTask (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:938841:9) {
+  title: 'ClineError',
+  _error: {
+    name: 'Error',
+    message: 'xAI API key is required',
+    stack: undefined,
+    status: undefined,
+    request_id: undefined,
+    code: undefined,
+    modelId: 'grok-4',
+    providerId: 'xai',
+    details: undefined
+  },
+  modelId: 'grok-4',
+  providerId: 'xai'
+}
+[ErrorService] Logging _ClineError: xAI API key is required
+    at _ClineError.transform (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:538776:18)
+    at ErrorService.toClineError (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:538855:40)
+    at Task.attemptApiRequest (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:939378:43)
+    at async Task.recursivelyMakeClineRequests (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:939804:30)
+    at async Task.initiateTaskLoop (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:938982:30)
+    at async Task.startTask (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:938841:9) {
+  title: 'ClineError',
+  _error: {
+    name: 'Error',
+    message: 'xAI API key is required',
+    stack: undefined,
+    status: undefined,
+    request_id: undefined,
+    code: undefined,
+    modelId: 'grok-4',
+    providerId: 'xai',
+    details: undefined
+  },
+  modelId: 'grok-4',
+  providerId: 'xai'
+}
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T11:10:35.045] #bot.cline.server.ts ProtoBus request: /cline.ModelsService/updateApiConfigurationProto
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T11:10:37.916] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756804237921
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756804237921
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 134ms
+Creating checkpoint commit with message: checkpoint-87472443-1756804237921
+Checkpoint commit created:  caeb32328d8dcc76eeb49a377ab92918af048aa3
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T11:30:07.654] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756805407669
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756805407669
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 128ms
+Creating checkpoint commit with message: checkpoint-87472443-1756805407669
+Checkpoint commit created:  682b3adf68eab86536da362f0a4803282de37441
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T11:56:44.594] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756807004606
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756807004606
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 131ms
+Creating checkpoint commit with message: checkpoint-87472443-1756807004606
+Checkpoint commit created:  449a562e1909e56c46775b3da4c313a6ca2c4db7
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T12:18:38.611] #bot.cline.server.ts ProtoBus request: /cline.McpService/toggleToolAutoApprove
+{
+  "mcpServers": {
+    
+  }
+}
+/Users/nils/.cline/data/settings/cline_mcp_settings.json
+Failed to update autoApprove settings: TypeError: Cannot read properties of undefined (reading 'autoApprove')
+    at McpHub.toggleToolAutoApproveRPC (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:878564:54)
+    at async toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:677050:24)
+    at async Object.toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:968577:23)
+Failed to toggle tool auto-approve for default: TypeError: Cannot read properties of undefined (reading 'autoApprove')
+    at McpHub.toggleToolAutoApproveRPC (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:878564:54)
+    at async toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:677050:24)
+    at async Object.toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:968577:23)
+[2025-09-02T12:18:38.616] #bot.cline.server.ts ProtoBus handler error: /cline.McpService/toggleToolAutoApprove
+TypeError: Cannot read properties of undefined (reading 'autoApprove')
+    at McpHub.toggleToolAutoApproveRPC (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:878564:54)
+    at async toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:677050:24)
+    at async Object.toggleToolAutoApprove (/Users/nils/Documents/nkco/development/cline/standalone/runtime-files/cline-core.js:968577:23)
+[2025-09-02T12:26:30.359] #bot.cline.server.ts ProtoBus request: /cline.StateService/updateAutoApprovalSettings
+[2025-09-02T12:26:49.497] #bot.cline.server.ts ProtoBus request: /cline.StateService/updateAutoApprovalSettings
+[2025-09-02T12:27:24.532] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756808844547
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756808844547
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 133ms
+Creating checkpoint commit with message: checkpoint-87472443-1756808844547
+Checkpoint commit created:  0487b3a9fb6983bff0237a5a9e350ed3b3db121c
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T12:32:13.956] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756809133960
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756809133960
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 128ms
+Creating checkpoint commit with message: checkpoint-87472443-1756809133960
+Checkpoint commit created:  1b51d5c6bee0b6cff8b09c16cbaf06a5bb0343fd
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T12:48:51.982] #bot.cline.server.ts ProtoBus request: /cline.TaskService/askResponse
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new checkpoint commit for task 1756809133960
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Checkpoint add operation completed in 178ms
+Creating checkpoint commit with message: checkpoint-87472443-1756809133960
+Checkpoint commit created:  401cabc622b0d5d8843a4d17eaf8eaac02c7a726
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new checkpoint commit for task 1756809133960
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Checkpoint add operation completed in 183ms
+Creating checkpoint commit with message: checkpoint-87472443-1756809133960
+Checkpoint commit created:  31c89173027e68059a413e8857fb26cb4604277e
+Getting diff count between commits: 1b51d5c6bee0b6cff8b09c16cbaf06a5bb0343fd -> 31c89173027e68059a413e8857fb26cb4604277e
+Starting checkpoint add operation...
+Checkpoint add operation completed in 121ms
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T12:50:16.532] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756810216535
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756810216535
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 129ms
+Creating checkpoint commit with message: checkpoint-87472443-1756810216535
+Checkpoint commit created:  a5973f5171b7f9eb8cef53eca0519d90b38a602b
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T12:50:42.244] #bot.cline.server.ts ProtoBus request: /cline.TaskService/askResponse
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new checkpoint commit for task 1756810216535
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Checkpoint add operation completed in 177ms
+Creating checkpoint commit with message: checkpoint-87472443-1756810216535
+Checkpoint commit created:  50358b3c5b1405aac02d68fcd4447424c535d342
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new checkpoint commit for task 1756810216535
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Checkpoint add operation completed in 148ms
+Creating checkpoint commit with message: checkpoint-87472443-1756810216535
+Checkpoint commit created:  4446e4030052bb364f9581158f4e2259b7055a32
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T12:51:54.689] #bot.cline.server.ts ProtoBus request: /cline.TaskService/askResponse
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new checkpoint commit for task 1756810216535
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Checkpoint add operation completed in 178ms
+Creating checkpoint commit with message: checkpoint-87472443-1756810216535
+Checkpoint commit created:  b3ba2dc07d35005215ecfa55eb5f614ffb73e9bf
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new checkpoint commit for task 1756810216535
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Checkpoint add operation completed in 157ms
+Creating checkpoint commit with message: checkpoint-87472443-1756810216535
+Checkpoint commit created:  01fea7c6da7f8d939c8ade3f5fab231d32cb027f
+Getting diff count between commits: a5973f5171b7f9eb8cef53eca0519d90b38a602b -> 01fea7c6da7f8d939c8ade3f5fab231d32cb027f
+Starting checkpoint add operation...
+Checkpoint add operation completed in 118ms
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T13:55:37.705] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756814137718
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756814137718
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 134ms
+Creating checkpoint commit with message: checkpoint-87472443-1756814137718
+Checkpoint commit created:  350c2ed3ef9b67ebf536b2ca6d77f949c08749c1
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T13:56:57.352] #bot.cline.server.ts ProtoBus request: /cline.TaskService/askResponse
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new checkpoint commit for task 1756814137718
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Checkpoint add operation completed in 164ms
+Creating checkpoint commit with message: checkpoint-87472443-1756814137718
+Checkpoint commit created:  a53ca1546b0ee1e74cff34253525f886163db8cf
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new checkpoint commit for task 1756814137718
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Checkpoint add operation completed in 150ms
+Creating checkpoint commit with message: checkpoint-87472443-1756814137718
+Checkpoint commit created:  078e9a08269d3921d90d7ea0ddf1cf20351f3a60
+Getting diff count between commits: 350c2ed3ef9b67ebf536b2ca6d77f949c08749c1 -> 078e9a08269d3921d90d7ea0ddf1cf20351f3a60
+Starting checkpoint add operation...
+Checkpoint add operation completed in 122ms
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T14:00:08.748] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756814408751
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756814408751
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 120ms
+Creating checkpoint commit with message: checkpoint-87472443-1756814408751
+Checkpoint commit created:  49b013fe8dc52531f82eb97a9c88cf8d5ee42948
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T14:07:23.516] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756814843520
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756814843520
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 117ms
+Creating checkpoint commit with message: checkpoint-87472443-1756814843520
+Checkpoint commit created:  18adf9951c5c52adc41d6860b80b52620219160f
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T14:07:47.583] #bot.cline.server.ts ProtoBus request: /cline.TaskService/askResponse
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new checkpoint commit for task 1756814843520
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Checkpoint add operation completed in 154ms
+Creating checkpoint commit with message: checkpoint-87472443-1756814843520
+Checkpoint commit created:  b320b9710fd982548a90654732b99a9f08bdb18a
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new checkpoint commit for task 1756814843520
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Checkpoint add operation completed in 151ms
+Creating checkpoint commit with message: checkpoint-87472443-1756814843520
+Checkpoint commit created:  36bc8bc0e072e37c9d72004aebd6d8f267de845a
+Getting diff count between commits: 18adf9951c5c52adc41d6860b80b52620219160f -> 36bc8bc0e072e37c9d72004aebd6d8f267de845a
+Starting checkpoint add operation...
+Checkpoint add operation completed in 121ms
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T16:27:31.540] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756823251559
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756823251559
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 130ms
+Creating checkpoint commit with message: checkpoint-87472443-1756823251559
+Checkpoint commit created:  8de52e4cfee697891dad9013a3de499b1ec2d38f
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T16:27:52.531] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756823272535
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756823272535
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 133ms
+Creating checkpoint commit with message: checkpoint-87472443-1756823272535
+Checkpoint commit created:  1538382ebec73aea4738feb1cd343768ba230c8a
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T16:28:16.231] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756823296236
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756823296236
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 130ms
+Creating checkpoint commit with message: checkpoint-87472443-1756823296236
+Checkpoint commit created:  8a1fa26d574f012924adfbf7aa23a7394d98ae7b
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T16:30:28.128] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+File /Users/nils/Documents/nkco/development/cline/cline-workspace/hello.py has been deleted.
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756823428133
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756823428133
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 129ms
+Creating checkpoint commit with message: checkpoint-87472443-1756823428133
+Checkpoint commit created:  334ebfc0faa8343572a43581b3125c69a711dbf2
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T16:31:43.318] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756823503321
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756823503321
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 135ms
+Creating checkpoint commit with message: checkpoint-87472443-1756823503321
+Checkpoint commit created:  e9d83ea1d6a790b95cc30d2f3faf2af99fdf45b5
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[2025-09-02T16:47:26.334] #bot.cline.server.ts ProtoBus request: /cline.TaskService/newTask
+[StandaloneTerminalManager] Disposed all terminals
+[DEBUG] Using vscode-impls.js terminal manager
+[StandaloneTerminalManager] Set shell integration timeout to 4000ms
+[StandaloneTerminalManager] Set terminal reuse enabled to true
+[StandaloneTerminalManager] Set terminal output line limit to 500
+[StandaloneTerminalManager] Set default terminal profile to default
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+Creating new CheckpointTracker for task 1756824446338
+Repository ID (cwdHash): 87472443
+Initializing shadow git
+Using existing shadow git at /Users/nils/.cline/data/checkpoints/87472443/.git
+Creating new checkpoint commit for task 1756824446338
+Using shadow git at: /Users/nils/.cline/data/checkpoints/87472443/.git
+Starting checkpoint add operation...
+Checkpoint add operation completed in 124ms
+Creating checkpoint commit with message: checkpoint-87472443-1756824446338
+Checkpoint commit created:  00199d1f2c778b9c76826bb91fcab2c92909354d
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
+[DEBUG] No active state subscription for controller ead21252-1a8b-49e4-8209-8ff5a961543e
